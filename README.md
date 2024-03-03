@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on front end projects.
 - 📫 Reach me through E-mail: aryan19jaiswal@gmail.com
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: They say I'm unique but what I see is they all just same.
+- ⚡ Fun fact: They say I'm different but what I see is they all just same.
 
 <!---
 aryan19jaiswal/aryan19jaiswal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
