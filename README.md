@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @aryan19jaiswal
 - 👀 I’m interested in technology, data and other similar stuff.
-- 🌱 I’m currently learning DSA and Web Development.
-- 💞️ I’m looking to collaborate on front end projects.
+- 🌱 I’m currently learning DSA and Full Stack Web (MERN) Development.
+- 💞️ I’m looking to collaborate on any kind of projects.
 - 📫 Reach me through E-mail: aryan19jaiswal@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: They say I'm different but what I see is they all just same.
