@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on any kind of projects.
 - 📫 Reach me through E-mail: aryan19jaiswal@gmail.com
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: They say I'm different but what I see is they all just same.
+- ⚡ Quote to Remember: If you can't sacrifice for change, you can't achieve anything.
 
 <!---
 aryan19jaiswal/aryan19jaiswal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
