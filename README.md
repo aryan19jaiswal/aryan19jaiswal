@@ -38,8 +38,10 @@
 **🔹 InveCareer** – Full-stack job portal with recruiter/applicant features, built using MERN stack and ShadCN UI.<br>
 
 # 💼 Experience:
-**FrontEnd Developer Intern** – CodSoft (Apr 2024 – May 2024)<br>
+**Full Stack Developer Intern** – Delovita Services Private Ltd. (May 2025 – Present)<br>
 **Java Developer Intern** – Coding Raja Technologies (May 2024 – June 2024)<br>
+**FrontEnd Developer Intern** – CodSoft (Apr 2024 – May 2024)<br>
+
 
 # 📜 Certifications:
 - Java (HackerRank) 🧩
@@ -54,4 +56,3 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=aryan19jaiswal&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
