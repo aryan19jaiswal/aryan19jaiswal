@@ -16,7 +16,7 @@
 
 ## 💫 About Me
 - 🎓 **B.Tech CSE (CGPA: 8.0)** — Maharishi Markandeshwar University (2022–2026)
-- 💼 **Technology Apprentice @ Morgan Stanley** (Backend & Platform Engineering)
+- 💼 **Technology Apprentice @ Morgan Stanley** (Backend & GenAI Engineering)
 - 🌱 Currently working on **Java, Springboot and GenAI**
 - 🧠 Strong in **DSA, OOP, Design Patterns & System Design (Basics)**
 - 🤝 Open to **Full Stack / Backend / AI-driven projects**
