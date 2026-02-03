@@ -29,7 +29,7 @@
 ### 🏦 Morgan Stanley — *Technology Apprentice*  
 📍 Mumbai | **Aug 2025 – Present**
 - *confidential*
-- 
+  
 ---
 
 ### 🚗 HeyEV! — *Full Stack Intern*  
