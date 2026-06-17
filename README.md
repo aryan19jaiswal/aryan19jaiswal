@@ -220,7 +220,4 @@ available:  Backend / Full Stack / GenAI projects
 │  Let's build something meaningful together 🚀                    │
 └──────────────────────────────────────────────────────────────────┘
 ```
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=aryan19jaiswal&icon=6&color=6)](https://visitcount.itsvg.in)
-
 </div>
