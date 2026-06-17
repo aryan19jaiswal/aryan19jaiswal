@@ -22,7 +22,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/─────────────────%20LinkedIn%20─────────────────-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryan19jaiswal)
 [![GitHub](https://img.shields.io/badge/─────────────────%20GitHub%20──────────────────-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aryan19jaiswal)
-[![Gmail](https://img.shields.io/badge/─────────────────%20Gmail%20──────────────────-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryan19jaiswal@gmail.com)
+[![Outlook](https://img.shields.io/badge/─────────────────%20Email%20──────────────────-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:aryan19jaiswal@outlook.com)
 
 </div>
 
@@ -34,6 +34,7 @@
 
 ```yaml
 name:       Aryan Jaiswal
+phone:      +91 9304099562
 role:       Technology Apprentice → Full Stack Engineer
 location:   Mumbai, India 🇮🇳
 education:  B.Tech CSE | CGPA 8.20
@@ -41,9 +42,15 @@ education:  B.Tech CSE | CGPA 8.20
             Sep 2022 – May 2026
 
 current_stack:
-  - Java 21 + Spring Boot 3.x
+  - Java + Spring Boot · RESTful APIs
   - Spring AI + LangChain4j
-  - Redis · PostgreSQL · MongoDB
+  - PostgreSQL · MySQL · MongoDB · Redis
+
+ai_toolbelt:
+  - Generative AI · Agentic AI · MCP
+  - RAG Pipelines · LLM Orchestration
+  - Prompt Engineering
+  - Claude Code · GitHub Copilot · ChatGPT Codex
 
 building:   AI-driven backend systems & agentic tools
 available:  Backend / Full Stack / GenAI projects
@@ -66,18 +73,25 @@ available:  Backend / Full Stack / GenAI projects
 ```
 🤖 Architected AI-ops platform +
    MCP servers → 10+ prod tools
+   (Spring AI + LangChain4j)
 
 📉 Reduced manual monitoring 70%
-   Improved incident response 50%
+   Improved issue response 50%
 
 🔁 Led Java 17→21 + Spring Boot
    2.x→3.4.6 migration (+45% freshness)
 
-⚡ Fixed recurring prod issue w/
+⚡ Fixed recurring prod issue via
    batch-based trade processing
+   (replaced load-all-at-once)
 
-🗄️ Migrated in-memory → Redis
-   distributed caching for scale
+🔄 Built on-demand recalculation
+   API + Grafana dashboard for
+   failed-trigger observability
+
+🛡️ Built regression frameworks:
+   blue/green snapshots + CPS vs.
+   DB state checks pre-deployment
 ```
 
 </td>
@@ -88,17 +102,19 @@ available:  Backend / Full Stack / GenAI projects
 🌍 Remote · *May 2025 – Jul 2025*
 
 ```
-💳 Designed Loan Origination System
-   (React.js + Tailwind CSS)
+💳 Designed firm's Loan Origination
+   System (LOS) — React.js +
+   Tailwind CSS
 
-🔄 Refactored Golang backend
-   services → Node.js
+📉 Cut document creation &
+   maintenance effort 50%+ vs.
+   manual workflows
+
+🔄 Migrated backend services
+   Golang → Node.js to unify stack
 
 🐘 Optimized PostgreSQL
-   database interactions
-
-🐛 Delivered bug fixes &
-   feature enhancements
+   interactions & shipped fixes
 ```
 
 </td>
@@ -109,47 +125,24 @@ available:  Backend / Full Stack / GenAI projects
 
 ## 🚀 Projects I'm Proud Of
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
 ### 🤖 BroCode
-> *Your AI pair-programmer for interviews*
+> *Your AI pair-programmer — built on a real production-grade agent architecture*
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white)
-
-- 🧠 AI-driven conversational coding agent
-- ⚡ Reactive frontend for real-time interaction
-- 🔧 Custom agent architecture with backend-driven tool integration & LLM orchestration
-- 🗂️ Robust session management via Spring Boot
-
-[![View Repo](https://img.shields.io/badge/View_on_GitHub-%23121011?style=for-the-badge&logo=github)](https://github.com/aryan19jaiswal)
-
-</td>
-<td width="50%" valign="top">
-
-### 💼 InveCareer
-> *A full-stack job portal that just works*
-
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express-404d59?style=flat-square)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
-![ShadCN](https://img.shields.io/badge/ShadCN_UI-000000?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
-- 📋 Job posting & applicant tracking
-- 🔍 Smart applicant search
-- 🔐 Secure multi-role authentication
-- 👥 Dual interface: Recruiter + Job Seeker
+- 🧩 Two-tier session architecture — Redis in prod, in-memory locally, switched via Spring `@Profile`, with async MongoDB Atlas persistence for non-blocking LLM requests and automatic restoration of expired sessions
+- ⚡ Real-time token streaming via Server-Sent Events + Project Reactor Flux, with an optimistic UI that renders responses before the first token arrives
+- 🧠 Structured LLM persona via a persistent system prompt enforcing a six-section format, resisting prompt injection, and auto-restoring context after session recovery
+- 🔧 Extensible `Agent` abstraction supporting chat, tool-use, and hybrid modes via capability-based runtime selection
+- ☁️ Deployed on Render (backend, Docker), Upstash (Redis), MongoDB Atlas (DB), and Vercel (frontend)
 
-[![View Repo](https://img.shields.io/badge/View_on_GitHub-%23121011?style=for-the-badge&logo=github)](https://github.com/aryan19jaiswal)
-
-</td>
-</tr>
-</table>
+[![GitHub](https://img.shields.io/badge/View_Repo-%23121011?style=for-the-badge&logo=github)](https://github.com/aryan19jaiswal)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6F00?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/aryan19jaiswal)
 
 ---
 
@@ -157,38 +150,38 @@ available:  Backend / Full Stack / GenAI projects
 
 <div align="center">
 
-### ◈ Languages & Core
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### ◈ Core Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-3776AB?style=for-the-badge&logo=codefactor&logoColor=white)
 
-### ◈ Frameworks & Libraries
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+### ◈ Frameworks & Tech
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-404d59?style=for-the-badge&logo=express)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### ◈ AI & GenAI
 ![LangChain4j](https://img.shields.io/badge/LangChain4j-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Generative AI](https://img.shields.io/badge/Generative_AI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
+![REST APIs](https://img.shields.io/badge/RESTful_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### ◈ Databases
+### ◈ AI Concepts & Tools
+![Generative AI](https://img.shields.io/badge/Generative_AI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-412991?style=for-the-badge&logo=robotframework&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-412991?style=for-the-badge&logo=databricks&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
+![ChatGPT Codex](https://img.shields.io/badge/ChatGPT_Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### ◈ Databases & Caching
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### ◈ Concepts & Tools
+### ◈ CS Fundamentals
 ![DSA](https://img.shields.io/badge/DSA-FF6F00?style=for-the-badge&logo=thealgorithms&logoColor=white)
-![Design Patterns](https://img.shields.io/badge/Design_Patterns-8E24AA?style=for-the-badge&logo=abstract&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+![System Design](https://img.shields.io/badge/System_Design-8E24AA?style=for-the-badge&logo=abstract&logoColor=white)
+![Computer Networks](https://img.shields.io/badge/Computer_Networks-00599C?style=for-the-badge&logo=cisco&logoColor=white)
+![Operating Systems](https://img.shields.io/badge/Operating_Systems-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
